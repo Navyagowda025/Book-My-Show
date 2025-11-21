@@ -48,7 +48,7 @@ Kubernetes NodePort service range.
 1.2.2. Attach policies to the user 
  AmazonEC2FullAccess, AmazonEKS_CNI_Policy, AmazonEKSClusterPolicy, AmazonEKSWorkerNodePolicy, AWSCloudFormationFullAccess, IAMFullAccess
 
-Attach the below inline policy also for the same user
+Attach the below inline policy also for the same user, You want a user/role to have complete access to EKS
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -816,4 +816,5 @@ Click on Dashboards in the left pane, you can see both the dashboards you have j
 
 
 Final:
+
 Delete all the resources created
