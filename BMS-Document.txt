@@ -257,6 +257,7 @@ Configure the SonarQube server;
 Token: squ_69eb05b41575c699579c6ced901eaafae66d63a2
 
 3.3. Creation of Credentials
+(here we configure, sonar qube tocken, docker hub credentials)
 
 3.4. Tools Configuration
 
@@ -819,4 +820,5 @@ Click on Dashboards in the left pane, you can see both the dashboards you have j
 Final:
 
 Delete all the resources created
+
 
