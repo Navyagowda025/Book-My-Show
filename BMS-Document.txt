@@ -110,7 +110,7 @@ eksctl create cluster --name=kastro-eks \
 It will take 5-10 minutes to create the cluster
 Goto EKS Console and verify the cluster.
 
-(b)
+(b) This command enables the OIDC identity provider for your EKS cluster.
 eksctl utils associate-iam-oidc-provider \
     --region us-east-1 \
     --cluster kastro-eks \
@@ -820,5 +820,6 @@ Click on Dashboards in the left pane, you can see both the dashboards you have j
 Final:
 
 Delete all the resources created
+
 
 
